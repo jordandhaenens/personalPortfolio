@@ -1,0 +1,56 @@
+html body {
+    width: 100vw;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+
+
+
+/********************
+NavBar
+********************/
+#navBar {
+	display: flex;
+	justify-content: space-between;
+	width: 100vw;
+	height: 4rem;
+	background-color: rgba(108, 110, 124, 0.8);
+}
+
+
+#navPartial {
+	display: flex;
+	width: auto;
+	height: 4rem;
+	margin: 0;
+}
+
+.navBtn {
+	display: flex;
+    color: white;
+    padding: 1rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.navBtn p {
+	margin: auto;
+}
+
+.navBtn:hover {
+	background-color: rgba(47, 61, 71, 0.6);
+}
+
+#logo {
+	display: flex;
+    color: white;
+    padding: 1rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+/********************
+NavBar End
+********************

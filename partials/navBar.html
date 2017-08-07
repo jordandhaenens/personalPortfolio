@@ -1,0 +1,22 @@
+<div class="navBtn" id="logo">
+	<p>Weekendr</p>
+</div>
+
+<div id="navPartial" ng-controller="NavbarCtrl">
+	<div class="navBtn" ng-click="goHome()">
+		<p>Home</p>
+	</div>
+
+	<div class="navBtn" ng-show="loggedIn" ng-click="savedTrips()">
+		<p>Saved Trips</p>
+	</div>
+
+	<div class="navBtn" ng-hide="loggedIn" ng-click="logIn()">
+		<p>Google Login</p>
+	</div>
+
+	<div class="navBtn" ng-show="loggedIn" ng-click="logOut()">
+		<p>LogOut</p>
+	</div>
+
+</div>
